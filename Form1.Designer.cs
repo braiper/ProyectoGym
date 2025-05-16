@@ -47,6 +47,7 @@
             btnRegister.TabIndex = 0;
             btnRegister.Text = "Alta de Socio";
             btnRegister.UseVisualStyleBackColor = false;
+            btnRegister.Click += btnRegister_Click;
             // 
             // btnAdmin
             // 
@@ -63,7 +64,7 @@
             btnList.Name = "btnList";
             btnList.Size = new Size(151, 43);
             btnList.TabIndex = 2;
-            btnList.Text = "Listar Vencimientos";
+            btnList.Text = "Listar Socios/Vencimientos";
             btnList.UseVisualStyleBackColor = true;
             // 
             // btnPay
@@ -98,7 +99,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaptionText;
+            BackColor = Color.FromArgb(27, 27, 27);
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(616, 462);
             Controls.Add(pictureBox1);
